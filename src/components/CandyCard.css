@@ -1,0 +1,23 @@
+.card {
+  background-color: var(--lightblack);
+  width: 250px;
+  color: var(--offwhite);
+  box-shadow: 5px 10px black;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 25px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card p {
+  /*top right bottom left*/
+  padding: 0px 10px 0px 20px;
+}
